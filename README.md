@@ -44,6 +44,8 @@ A página apresenta as seguintes seções:
 - Separadores horizontais (`hr`)
 - Meta tags e responsividade básica
 
+https://roadmap.sh/projects/single-page-cv
+
 ---
 
 Desenvolvido por [ViniciusCorreia-S](https://github.com/ViniciusCorreia-S)
