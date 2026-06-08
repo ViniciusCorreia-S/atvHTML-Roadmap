@@ -1,27 +1,31 @@
-# 📄 Currículo em HTML — Atividade Roadmap
+# 🌐 Portfólio Pessoal em HTML — Atividade Roadmap
 
 Projeto desenvolvido como atividade prática de introdução ao **HTML**, seguindo o roadmap de estudos em desenvolvimento web.
 
+> 📌 Baseado no projeto: [roadmap.sh/projects/single-page-cv](https://roadmap.sh/projects/basic-html-website)
+
 ## 📋 Sobre o Projeto
 
-Uma página de currículo construída inteiramente com HTML puro, sem uso de CSS externo ou JavaScript. O objetivo é praticar a estruturação semântica de conteúdo com as principais tags HTML.
+Um portfólio pessoal multi-página construído inteiramente com **HTML puro**, sem uso de CSS externo ou JavaScript. O objetivo é praticar a estruturação semântica de conteúdo com as principais tags HTML, incluindo navegação entre páginas.
 
 ## 🗂️ Estrutura do Repositório
 
 ```
 atvHTML-Roadmap/
-└── curriculo.html   # Página do currículo em HTML
+├── Pagina_Inicial.html   # Página de apresentação e sobre mim
+├── Projetos.html         # Lista de projetos desenvolvidos
+├── Artigos.html          # Artigos sobre tecnologia e desenvolvimento
+└── Contato.html          # Informações e formas de contato
 ```
 
-## 🧾 Conteúdo do Currículo
+## 📄 Páginas do Portfólio
 
-A página apresenta as seguintes seções:
-
-- **Dados de Contato** — nome, localização, telefone e e-mail
-- **Skills** — HTML, CSS, JavaScript e C#
-- **Formação Acadêmica** — graduação e pós-graduação
-- **Experiência Profissional** — histórico de cargos e empresas
-- **Networking** — links para LinkedIn e GitHub
+| Página | Descrição |
+|--------|-----------|
+| **Página Inicial** | Apresentação, seção "Sobre Mim" e formação acadêmica |
+| **Projetos** | Site pessoal, aplicativo de tarefas e blog de tecnologia |
+| **Artigos** | Textos sobre desenvolvimento web, design responsivo e performance |
+| **Contato** | E-mail, telefone, LinkedIn e GitHub |
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -33,18 +37,17 @@ A página apresenta as seguintes seções:
    ```bash
    git clone https://github.com/ViniciusCorreia-S/atvHTML-Roadmap.git
    ```
-2. Abra o arquivo `curriculo.html` diretamente no navegador.
+2. Abra o arquivo `Pagina_Inicial.html` diretamente no navegador.
+3. Use a barra de navegação para acessar as demais páginas.
 
 ## 📚 Conceitos Praticados
 
 - Estrutura básica de um documento HTML (`DOCTYPE`, `html`, `head`, `body`)
+- Elementos semânticos (`header`, `nav`, `main`, `section`, `footer`)
 - Títulos hierárquicos (`h1`, `h2`)
 - Parágrafos e listas (`p`, `ul`, `li`)
-- Links e âncoras (`a href`)
-- Separadores horizontais (`hr`)
+- Navegação entre páginas com links (`a href`)
 - Meta tags e responsividade básica
-
-https://roadmap.sh/projects/single-page-cv
 
 ---
 
